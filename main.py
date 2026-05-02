@@ -19,11 +19,11 @@ RED = (220, 60, 60)
 WHITE = (255, 255, 255)
 
 #carga sprites
-DINO_NORMAL_IMG = pygame.image.load(os.path.join("img", "player.png")).convert_alpha()
-DINO_DUCK_IMG = pygame.image.load(os.path.join("img", "player agachado.png")).convert_alpha()
-CACTUS_IMG = pygame.image.load(os.path.join("img", "fantasmita.png")).convert_alpha()
-ROCK_IMG = pygame.image.load(os.path.join("img", "la roca.png")).convert_alpha()
-CLOUD_IMG = pygame.image.load(os.path.join("img", "nube.png")).convert_alpha()
+DINO_NORMAL_IMG = pygame.image.load(os.path.join("player.png")).convert_alpha()
+DINO_DUCK_IMG = pygame.image.load(os.path.join("player agachado.png")).convert_alpha()
+CACTUS_IMG = pygame.image.load(os.path.join("fantasmita.png")).convert_alpha()
+ROCK_IMG = pygame.image.load(os.path.join("la roca.png")).convert_alpha()
+CLOUD_IMG = pygame.image.load(os.path.join("nube.png")).convert_alpha()
 #Escalado sprites
 DINO_NORMAL_IMG = pygame.transform.scale(DINO_NORMAL_IMG, (60, 80))
 DINO_DUCK_IMG = pygame.transform.scale(DINO_DUCK_IMG, (60, 40))
